@@ -11,7 +11,7 @@ on:
 
 jobs:
   release:
-    name: Buidl Helm Release Cleaner
+    name: Build Helm Release Cleaner
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
