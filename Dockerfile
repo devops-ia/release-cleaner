@@ -1,9 +1,6 @@
-# helm-release-cleaner
-
-Image used for helm usage with bash scripts
-
-```bash
 FROM docker.io/alpine:3.12
+
+LABEL maintainer "Adrián Martín <adrianmg231189@gmail.com>"
 
 RUN apk update && \
     apk add coreutils \
@@ -14,5 +11,3 @@ RUN apk update && \
 RUN curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 && \
     chmod 700 get_helm.sh                                                                         && \
     ./get_helm.sh
-
-```
