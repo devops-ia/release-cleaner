@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.21
+FROM docker.io/alpine:3.22
 
 LABEL maintainer "Adrián Martín <adrianmg231189@gmail.com>"
 
